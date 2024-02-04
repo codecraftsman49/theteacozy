@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Navbar */
+
+nav{
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#logo-div{
+    width: 20%;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+#navbar-div{
+    width: 80%;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}	
+
+nav ul{
+    float: right;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Mission */
+
+.mission{
+    display: flex;
+    justify-content: center;
+}
+
+.mission>div{
+    width: 1200px;
+    height: 700px;
+    background-image: url(./resources/mission-background.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.mission>div>.mission-text{
+    text-align: center;
+    width: 1200px;
+    background-color: black;
+}
+
+h2,h4{
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+/* Featured */
+
+.featured{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.featured>div{
+    width: 1000px;
+}
+
+h2,h4{
+    margin-bottom: 15px;
+}
+
+.cards-collection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 0px 15px;
+}
+
+.featured .card img{
+    width: 300px;
+    height: 200px;
+}
+.featured .card h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Locations */
+
+.locations{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.locations>div{
+    width: 1200px;
+    height: 600px;
+    background-image: url(./resources/locations-background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations>div>.location-text{
+    background-color: transparent;
+}
+
+.location-text>h2{
+    background-color: transparent;
+}
+
+.location-cards-collection{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location-card{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    padding: 10px 0px;
+    margin: 15px 20px 0px 20px;
+}
+
+.location-card>h3{
+    margin-bottom: 15px;
+}
+
+.location-card>p{
+    text-align: center;
+    line-height: 2;
+}
+
+.locations>div>.cards-collection{
+    background-color: transparent;
+}
+
+/* Footer */
+
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer>div>h5{
+    line-height: 2;
+}
+
+#copyright{
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
