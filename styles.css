@@ -20,6 +20,7 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
+    box-sizing: content-box;
 }
 
 #logo-div{
